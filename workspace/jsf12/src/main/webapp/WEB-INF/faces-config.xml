@@ -1,0 +1,20 @@
+<faces-config version="1.2"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+        http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+    
+    <managed-bean>
+        <managed-bean-name>helloBean</managed-bean-name>
+        <managed-bean-class>pdprof.jsf12.HelloBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <application>
+    	<message-bundle>pdprof.jsf12.messages</message-bundle>
+    	<resource-bundle>
+        	<base-name>pdprof.jsf12.resources</base-name>
+        	<var>res</var>
+    	</resource-bundle>
+	</application>
+</faces-config>
