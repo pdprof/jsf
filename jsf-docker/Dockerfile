@@ -11,5 +11,6 @@ USER root
 RUN dnf install -y make procps-ng net-tools gdb nmap
 COPY --chown=1001:0 config/server.xml /config/server.xml
 COPY --chown=1001:0 apps/jsf.war /config/apps/
+COPY --chown=1001:0 apps/jsf12.war /config/apps/
 
 USER 1001

@@ -19,4 +19,5 @@
     <applicationMonitor updateTrigger="mbean"/>
 
     <webApplication id="jsf" location="jsf.war" name="jsf"/>
+    <webApplication id="jsf12" location="jsf12.war" name="jsf12"/>
 </server>
